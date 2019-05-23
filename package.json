@@ -1,0 +1,11 @@
+{
+  "name": "poi-babel-html-entrypoint",
+  "version": "0.0.1",
+  "scripts": {
+    "build-entrypoint": "poi index.html --prod --debug --no-clear-console",
+    "build-standalone": "poi --prod --debug --no-clear-console"
+  },
+  "dependencies": {
+    "poi": "^12.6.10"
+  }
+}
